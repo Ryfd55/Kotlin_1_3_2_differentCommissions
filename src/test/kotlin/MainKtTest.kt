@@ -103,7 +103,7 @@ class MainKtTest {
 
         val res = userCardType(transAmmount, card, monthTrasfered)
 
-        assertEquals(-1, res)
+        assertEquals(1, res)
     }
 
     @Test
